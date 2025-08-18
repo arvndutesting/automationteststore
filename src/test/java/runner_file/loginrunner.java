@@ -12,8 +12,8 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 			features =//  ,{
-		{"C:\\guru99_project\\src\\test\\resources\\features\\NewAccount.feature" ,
-		"C:\\guru99_project\\src\\test\\resources\\features"},
+		"C:\\guru99_project\\src\\test\\resources\\features\\NewAccount.feature" ,
+		//"C:\\guru99_project\\src\\test\\resources\\features"},
 			glue="step_defination" ,
 			
 			dryRun = false ,
